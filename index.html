@@ -1,0 +1,57 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Doorbell - Home Security</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <div class="sidebar">
+        <h2>Smart Doorbell</h2>
+        <ul>
+        <li><span>📜</span> History</li>
+        <li><span>⚙️</span> Settings</li>
+        <li><span>👤</span> Profile</li>
+        </ul>
+    </div>
+
+    <div class="main">
+        <header>
+        <h2>Smart Doorbell <span>Front Door</span></h2>
+        <div class="header-icons">
+            <span>🔔</span>
+            <span>👤</span>
+        </div>
+        </header>
+
+        <div class="content">
+        <div class="camera-section">
+            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Camera feed">
+            <div class="controls">
+            <button class="talk">🎤 Talk</button>
+            <button class="unlock">🔓 Unlock</button>
+            <button class="alert">⚠️ Alert</button>
+            </div>
+        </div>
+
+        <div class="activity">
+            <div class="activity-header">
+            <h3>Recent Activity</h3>
+            <a href="#">View All</a>
+            </div>
+            <ul id="activity-log">
+            <li class="doorbell">🔔 Doorbell Ring <span>2 min ago</span><p>Someone pressed the doorbell</p></li>
+            <li class="person">👤 Person Detected <span>5 min ago</span><p>John Doe detected at front door</p></li>
+            <li class="motion">📡 Motion Detected <span>12 min ago</span><p>Movement in detection zone</p></li>
+            <li class="unlock">🔓 Door Unlocked <span>1 hour ago</span><p>Door unlocked remotely</p></li>
+            <li class="security">🚨 Security Alert <span>2 hours ago</span><p>Emergency alert triggered</p></li>
+            </ul>
+        </div>
+        </div>
+    </div>
+
+    <!-- ✅ Link to external JavaScript -->
+    <script src="script.js"></script>
+    </body>
+    </html>
